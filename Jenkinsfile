@@ -5,10 +5,6 @@ pipeline {
         NODE_VERSION = "20.x"
     }
 
-    tools {
-        nodejs "${NODE_VERSION}"
-    }
-
     stages {
         stage("Checkout"){
             steps{
