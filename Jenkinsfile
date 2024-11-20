@@ -23,7 +23,7 @@ pipeline {
         stage ("run tests"){
             steps{
                 script{
-                    bat "start npm test"
+                    bat "npm test"
                 }
             }
         }
